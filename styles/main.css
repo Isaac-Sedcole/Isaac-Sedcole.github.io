@@ -6,6 +6,16 @@ body{
     
 }
 
+#thin-border{
+    border-width: 10px;
+    border-style: solid;
+}
+
+#thick-border{
+    border-width: 20px;
+    border-style: solid;
+}
+
 .font-family-staatliches{
     font-family: 'Staatliches',cursive;
 }
@@ -20,6 +30,9 @@ body{
 h1{
     font-size: 50pt;
     font-family:'Staatliches',cursive;
+}
+h2{
+    font-size: 30pt;
 }
 
 p{
@@ -57,7 +70,7 @@ li{
     font-family: 'Staatliches',cursive;
 }
 
-#box-for-cat{
+#box{
     border-style: solid;
     border-color: black;
     text-align: center;
